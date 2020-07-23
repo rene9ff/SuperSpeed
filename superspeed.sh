@@ -136,7 +136,7 @@ runtest() {
 		start=$(date +%s) 
 
 		 speed_test '3633' '上海' '电信'
-		 speed_test '24012' '内蒙古呼和浩特' '电信'
+		# speed_test '24012' '内蒙古呼和浩特' '电信'
 		# speed_test '27377' '北京５Ｇ' '电信'
 		 speed_test '29026' '四川成都' '电信'
 		 speed_test '29071' '四川成都' '电信'
@@ -148,11 +148,11 @@ runtest() {
 		# speed_test '5396' '江苏苏州５Ｇ' '电信'
 		# speed_test '5317' '江苏连云港５Ｇ' '电信'
 		 speed_test '7509' '浙江杭州' '电信'
-		 speed_test '23844' '湖北武汉' '电信'
+		# speed_test '23844' '湖北武汉' '电信'
 		# speed_test '29353' '湖北武汉５Ｇ' '电信'
 		# speed_test '28225' '湖南长沙５Ｇ' '电信'
-		 speed_test '3973' '甘肃兰州' '电信'
-		 speed_test '19076' '重庆' '电信'
+		# speed_test '3973' '甘肃兰州' '电信'
+		# speed_test '19076' '重庆' '电信'
 		#***
 		# speed_test '21005' '上海' '联通'
 		 speed_test '24447' '上海５Ｇ' '联通'
@@ -250,14 +250,11 @@ runtest() {
 		start=$(date +%s) 
 
 		 speed_test '3633' '上海' '电信'
-		 speed_test '24012' '内蒙古呼和浩特' '电信'
 		 speed_test '29026' '四川成都' '电信'
 		 speed_test '29071' '四川成都' '电信'
 		 speed_test '27810' '广西南宁' '电信'
 		 speed_test '7509' '浙江杭州' '电信'
-		 speed_test '23844' '湖北武汉' '电信'
 		 speed_test '3973' '甘肃兰州' '电信'
-		 speed_test '19076' '重庆' '电信'
 
 		end=$(date +%s)  
 		rm -rf speedtest*
