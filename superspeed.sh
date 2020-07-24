@@ -263,17 +263,11 @@ runtest() {
     start=$(date +%s)
 
     speed_test '3633' '上海' '电信'
-    speed_test '29026' '四川成都' '电信'
     speed_test '29071' '四川成都' '电信'
     speed_test '27810' '广西南宁' '电信'
     speed_test '7509' '浙江杭州' '电信'
     speed_test '3973' '甘肃兰州' '电信'
     speed_test '19076' '重庆' '电信'
-    speed_test '10305' '广西南宁X' '电信'
-    speed_test '6132' '湖南长沙X' '电信'
-    speed_test '5081' '广东深圳X' '电信'
-    speed_test '6592' '重庆X' '电信'
-    speed_test '4624' '四川成都X' '电信'
 
     end=$(date +%s)
     rm -rf speedtest*
